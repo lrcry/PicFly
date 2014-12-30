@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<script language=javascript>
+function countDown(secs,surl){
+//alert(surl);
+
+tiao.innerText=secs;//<span>中显示的内容值
+if(--secs>0){
+      setTimeout("countDown("+secs+",'"+surl+"')",1000);//设定超时时间
+      }
+else{
+  
+      location.href=surl;//跳转页面
+
+      } 
+}
+</script>
+<!--脚本结束-->
+<body>
+<span id="tiao">5</span>秒后自动跳转到PHPINFO页面<script language=javascript>countDown(5,'http://www.baidu.com');</script>
+</body>
+</html>

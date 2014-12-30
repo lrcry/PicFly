@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+#myspace {
+	width: 100%;
+	overflow: hidden;
+}
+
+#menu_left, #content_right {
+	float: left;
+	display: inline-block;
+}
+
+#menu_left {
+	width: 20%;	
+}
+
+#content_right {
+	width: 80%;
+}

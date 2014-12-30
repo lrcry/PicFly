@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+body {
+background-image: url(../images/login.jpg);
+background-position: 0px 98px;
+background-repeat: no-repeat;
+}
+h1, h3 {
+text-align: center;
+color: #9400D3;
+margin-bottom: 50px;
+}
